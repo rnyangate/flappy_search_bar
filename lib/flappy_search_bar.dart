@@ -323,7 +323,7 @@ class _SearchBarState<T> extends State<SearchBar<T>>
     setState(() {
       _loading = true;
       _error = null;
-      _animate = true;
+      _animate = false;
     });
   }
 
